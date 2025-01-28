@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protoapp;
+
+message Message {
+    string id = 1;
+    string content = 2;
+}
+
